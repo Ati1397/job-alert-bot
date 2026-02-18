@@ -1,99 +1,71 @@
 email:
   to: "s.jobs061303@gmail.com"
-  subject: "🔔 Daily Job Digest – People, Change & Transformation"
+  subject: "Daily Job Alert Digest"
  
 filters:
+  # wie viele letzte Emails werden geprüft
+  max_emails: 80
+ 
+  # Treffer, wenn mindestens eines vorkommt
   keywords_any:
-    - change management
-    - changemanagement
-    - hr
-    - human resources
-    - recruiting
-    - talent acquisition
-    - organizational development
-    - organisationsentwicklung
-    - people transformation
-    - employee experience
-    - change communication
-    - kommunikation
-    - projektmanagement
-    - project management
-    - consultant
-    - berater
     - wirtschaftspsychologie
-    - business psychology
+    - organisationsentwicklung
+    - organizational development
+    - personalentwicklung
+    - talent management
+    - people analytics
+    - employee experience
+    - change management
+    - transformation
+    - hr business partner
+    - recruiting
+    - employer branding
+    - interne kommunikation
+    - kulturentwicklung
+    - learning and development
+    - l&d
  
-  locations_any:
-    - germany
-    - deutschland
-    - munich
-    - münchen
-    - remote
-    - hybrid
- 
+  # wird ausgeschlossen, wenn eines vorkommt
   exclude_any:
-    - intern
-    - internship
-    - praktikum
-    - werkstudent
-    - thesis
-    - masterarbeit
-    - bachelorarbeit
-    - ausbildung
+    - "praktikum schüler"
+    - "schülerpraktikum"
+ 
+  # optional: leer lassen oder Städte/Regionen ergänzen
+  locations_any:
+    - münchen
+    - munich
+    - deutschland
+    - germany
  
 companies:
   - name: "BMW Group"
-    markers_any:
-      - "bmwgroup.jobs"
-      - "jobs.bmwgroup.com"
-      - "bmwgroup"
-      - "bmw"
+    markers_any: ["bmwgroup.jobs", "jobs.bmwgroup", "bmwgroup", "bmw"]
     careers_url: "https://www.bmwgroup.jobs/de/de.html"
  
   - name: "Bosch"
-    markers_any:
-      - "jobs.bosch.de"
-      - "bosch"
-      - "work #likeabosch"
+    markers_any: ["jobs.bosch", "bosch", "work #likeabosch"]
     careers_url: "https://www.bosch.de/karriere/"
  
   - name: "Allianz"
-    markers_any:
-      - "careers.allianz.com"
-      - "allianz"
-      - "allianz-partners.com"
+    markers_any: ["careers.allianz.com", "allianz", "allianz-partners.com"]
     careers_url: "https://careers.allianz.com/de/de/home"
  
   - name: "Siemens"
-    markers_any:
-      - "jobs.siemens.com"
-      - "siemens"
+    markers_any: ["jobs.siemens.com", "siemens"]
     careers_url: "https://www.siemens.com/de/de/unternehmen/jobs.html"
  
   - name: "SAP"
-    markers_any:
-      - "jobs.sap.com"
-      - "sap"
+    markers_any: ["jobs.sap.com", "sap"]
     careers_url: "https://jobs.sap.com/"
  
   - name: "Deutsche Telekom"
-    markers_any:
-      - "careers.telekom.com"
-      - "telekom"
-      - "telekom.jobs"
+    markers_any: ["careers.telekom.com", "telekom", "telekom.jobs"]
     careers_url: "https://careers.telekom.com/de"
  
   - name: "Henkel"
-    markers_any:
-      - "henkel.com"
-      - "henkel"
+    markers_any: ["henkel.com", "henkel"]
     careers_url: "https://www.henkel.com/careers"
  
   - name: "BASF"
-    markers_any:
-      - "basf.jobs"
-      - "basf"
+    markers_any: ["basf.jobs", "basf"]
     careers_url: "https://basf.jobs/?locale=de_DE"
-``
-
-    
