@@ -1,4 +1,1 @@
-requests
-feedparser
-beautifulsoup4
-PyYAML
+PyYAML==6.0.1
