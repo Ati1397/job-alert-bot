@@ -42,8 +42,16 @@ filters:
     - ausbildung
  
 sources:
-  - name: "Beispiel RSS Quelle"
-    type: "rss"
-    url: "https://example.com/jobs/feed"
+  - name: "BMW Careers (manual link)"
+    type: "manual_link"
+    url: "https://www.bmwgroup.jobs/de/de/jobs.html"
+ 
+  - name: "Bosch Job Portal (manual link)"
+    type: "manual_link"
+    url: "https://jobs.bosch.de/"
+ 
+  - name: "Allianz Careers (manual link)"
+    type: "manual_link"
+    url: "https://careers.allianz.com/"
 
     
