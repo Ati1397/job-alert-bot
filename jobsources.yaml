@@ -1,0 +1,49 @@
+email:
+  to: "s.jobs061303@gmail.com"
+  subject: "🔔 Daily Job Digest – People, Change & Transformation"
+ 
+filters:
+  keywords_any:
+    - change management
+    - changemanagement
+    - hr
+    - human resources
+    - recruiting
+    - talent acquisition
+    - organizational development
+    - organisationsentwicklung
+    - people transformation
+    - employee experience
+    - change communication
+    - kommunikation
+    - projektmanagement
+    - project management
+    - consultant
+    - berater
+    - wirtschaftspsychologie
+    - business psychology
+ 
+  locations_any:
+    - germany
+    - deutschland
+    - munich
+    - münchen
+    - remote
+    - hybrid
+ 
+  exclude_any:
+    - intern
+    - internship
+    - praktikum
+    - werkstudent
+    - thesis
+    - masterarbeit
+    - bachelorarbeit
+    - ausbildung
+ 
+sources:
+  - name: "Beispiel RSS Quelle"
+    type: "rss"
+    url: "https://example.com/jobs/feed"
+
+    
